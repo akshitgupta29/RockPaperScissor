@@ -17,6 +17,6 @@ def judge (player, computer):
     elif player == 2 and computer == 0:
         return 'Lose'
     else:
-        return 'Win'
+        return 'co'
 
 
