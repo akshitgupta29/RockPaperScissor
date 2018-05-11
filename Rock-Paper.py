@@ -5,6 +5,9 @@ import utils
 print ('Welcome to the game of Rock, Paper, Scissors')
 #print('Enter your name')
 player_name = input ('Enter your name ')
+if player_name == '' or player_name == ' ':
+    print('Player name can\'t be empty.')
+    sys.exit()
 other_player_name = input('Enter the other player name (optional) ')
 print ('Pick a hand: (0: Rock, 1: Paper, 2: Scissors)')
 
